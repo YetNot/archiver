@@ -48,8 +48,8 @@ func bin(ch rune) string {
 	return res
 }
 
-func getEncodingTable() encodingTable {
-	return encodingTable{
+func getEncodingTable() EncodingTable {
+	return EncodingTable{
 		' ': "11",
 		't': "1001",
 		'n': "10000",
