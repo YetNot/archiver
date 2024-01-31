@@ -39,7 +39,6 @@ func (dt *DecodingTree) Decode(str string) string {
 
 	if currNode.Value != "" {
 		buf.WriteString(currNode.Value)
-		currNode = dt
 	}
 
 	return buf.String()
